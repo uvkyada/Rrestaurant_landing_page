@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+    <title>restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.js"></script>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+<body class="font-Lato">
+<section>
+  <!-- header -->
+  <header class="w-full top-0 inset-x-0 z-40 relative">
+    <div class="max-w-screen-2xl mx-auto flex items-center text-center justify-between py-3 px-5 lg:p-5 text-black">
+      <a href="#" class="text-orange-600 font-bold text-2xl md:text-3xl">R-FOOD</a>
+      <div class="flex justify-center items-center text-orange-600 z-10">
+        <div class="w-full bg-white lg:bg-transparent hidden lg:block absolute lg:relative top-full left-0 z-40 border-t lg:border-none" id="menu">
+          <ul class="text-2xl flex flex-wrap justify-center list-none lg:text-center pr-5">
+            <li class="lg:w-auto p-3 lg:py-0 text-lg"><a href="#home">Home</a></li>
+            <li class="lg:w-auto p-3 lg:py-0 text-lg"><a href="#menu">Menu</a></li>
+            <li class="lg:w-auto p-3 lg:py-0 text-lg"><a href="#pages">Pages</a></li>
+            <li class="lg:w-auto p-3 lg:py-0 text-lg"><a href="#blog">Blog</a></li>
+            <li class="lg:w-auto p-3 lg:py-0 text-lg"><a href="#shop">Shop</a></li>
+          </ul>
+        </div>
+          <div class="block lg:hidden pr-5" id="menu-button">
+              <svg class="fill-orange-600 w-5 h-5" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"width="24.75px" height="24.75px" viewBox="0 0 24.75 24.75" style="enable-background:new 0 0 24.75 24.75;" xml:space="preserve">
+                <g><path d="M0,3.875c0-1.104,0.896-2,2-2h20.75c1.104,0,2,0.896,2,2s-0.896,2-2,2H2C0.896,5.875,0,4.979,0,3.875z M22.75,10.375H2c-1.104,0-2,0.896-2,2c0,1.104,0.896,2,2,2h20.75c1.104,0,2-0.896,2-2C24.75,11.271,23.855,10.375,22.75,10.375z M22.75,18.875H2c-1.104,0-2,0.896-2,2s0.896,2,2,2h20.75c1.104,0,2-0.896,2-2S23.855,18.875,22.75,18.875z"/></g><g>
+              </svg>
+          </div>
+          <div>
+            <button class="bg-orange-600 text-white text-sm md:text-base p-2 lg:py-2 lg:px-7 uppercase hover:translate-x-2 duration-700 ease-in-out whitespace-nowrap font-medium"><span>Find a table</span></button>
+          </div>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+  <!-- hero contact -->
+  <div class="relative flex justify-center items-center overflow-hidden">
+    <div class="w-full max-w-screen-2xl mx-auto py-5 px-5 absolute uppercase text-center text-white z-10">
+      <p class="text-sm lg:text-xl font-bold text-white pb-5 2xl:pb-10">WELCOME TO PATIOTIME</p>
+      <h1 class="text-3xl md:text-5xl lg:text-8xl font-bold text-white font-Oswald pb-5 2xl:pb-10">Delicious Food & Wonderful Eating Experience</h1>
+      <button class="bg-orange-600 text-white text-sm md:text-base px-5 md:px-10 py-2 md:py-4 uppercase hover:translate-x-2 font-bold duration-700 ease-in-out">View Full Menus</button>
+    </div>
+    <img src="../public/img/food-bg.jpg" alt="hotel-bg" class="w-full object-cover h-screen brightness-75"/>
+  </div>
+  <!-- hero contact end -->
+</section>
+<!-- test -->
+<section id="test">
+    <div class="max-w-screen-2xl mx-auto px-5 lg:px-9 py-12 lg:py-16 xl:py-24 2xl:py-28">
+      <div class="md:p-5 rounded-lg flex flex-wrap justify-between items-center">
+        <div class="w-full md:w-1/2 py-2 px-0 md:p-2">
+          <div class="space-y-3 xl:space-y-6 pb-5">
+            <h3 class="font-Oswald font-bold text-2xl xl:text-5xl text-gray-800">Enjoy An Exceptional Journey of Taste</h3>
+            <p class="text-xs md:text-lg text-gray-500">We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect of the customer experience a little bit better. </p>
+            <button class="bg-orange-600 text-white text-sm md:text-base px-5 md:px-7 py-2 md:py-4 uppercase hover:translate-x-2 font-bold duration-700 ease-in-out">Discover More</button>
+          </div>
+          <div class="">
+            <img src="../public/img/r-17.jpg" alt="hotel-pool" />
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 py-2 px-0 md:p-2">
+          <div class="">
+            <img src="../public/img/r-18.jpg" alt="hotel-pool" />
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- test -->
+<!-- menu -->
+<section id="menu">
+  <div class="max-w-screen-2xl mx-auto px-5 lg:px-9 py-12 lg:py-16 xl:py-24 2xl:py-28">
+      <div class="text-center pb-10">
+        <h2 class="font-Oswald font-bold text-4xl xl:text-8xl text-gray-800">FROM OUR MENU</h2>
+          <p class="text-xs md:text-lg text-gray-500">special selection</p>
+      </div>
+      <div class="w-full flex flex-wrap items-center justify-center">
+        <div class="w-full lg:w-1/2 md:px-5 space-y-10 pb-7 lg:pb-0">
+          <div class="w-full space-y-1">
+              <div class="w-full flex flex-wrap justify-between">
+                <h6 class="w-full font-ging">BEEF BURGER MEAL</h6>
+                <div class="border-b-2 w-[90%] mb-2"></div>
+                <p>$32</p>
+              </div>
+              <P>Classic greek salad, barrel aged feta cheese, bread</P>
+          </div>
+          <div class="w-full space-y-1">
+              <div class="w-full flex flex-wrap justify-between">
+                <h6 class="w-full font-ging">ROASTED LAMB RUMP</h6>
+                <div class="border-b-2 w-[90%] mb-2"></div>
+                <p>$25</p>
+              </div>
+              <P>Grilled lamb cutlets, pomegranate glaze, butternut squash</P>
+          </div>
+          <div class="w-full space-y-1">
+              <div class="w-full flex flex-wrap justify-between">
+                <h6 class="w-full font-ging">PAN SEARED SEA BASS</h6>
+                <div class="border-b-2 w-[90%] mb-2"></div>
+                <p>$38</p>
+              </div>
+              <P>Saffron and mussel’s broth, new potatoes, edamame beans</P>
+          </div>
+          <div class="w-full space-y-1">
+              <div class="w-full flex flex-wrap justify-between">
+                <h6 class="w-full font-ging">KING PRAWNS AND LOBSTER</h6>
+                <div class="border-b-2 w-[90%] mb-2"></div>
+                <p>$38</p>
+              </div>
+              <P>Creamy saffron, sauce Vierge</P>
+          </div>
+          <div class="w-full space-y-1">
+              <div class="w-full flex flex-wrap justify-between">
+                <h6 class="w-full font-ging">CITRUS CURED SALMON</h6>
+                <div class="border-b-2 w-[90%] mb-2"></div>
+                <p>$41</p>
+              </div>
+              <P>Horseradish creme fraiche, beetroot mousse, oil</P>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 md:px-5 space-y-10">
+            <div class="w-full space-y-1">
+                <div class="w-full flex flex-wrap justify-between">
+                  <h6 class="w-full font-ging">PAN SEARED SCALLOPS</h6>
+                  <div class="border-b-2 w-[90%] mb-2"></div>
+                  <p>$29</p>
+                </div>
+                <P>Saffron, celeriac puree, black pudding, olive oil</P>
+            </div>
+            <div class="w-full space-y-1">
+                <div class="w-full flex flex-wrap justify-between">
+                  <h6 class="w-full font-ging">BAKED CAMEMBERT</h6>
+                  <div class="border-b-2 w-[90%] mb-2"></div>
+                  <p>$25</p>
+                </div>
+                <P>Red onion marmelade, garlic Foccacia bread, grilled figs</P>
+            </div>
+            <div class="w-full space-y-1">
+                <div class="w-full flex flex-wrap justify-between">
+                  <h6 class="w-full font-ging">BRAISED OX CHEEK RAVIOLI</h6>
+                  <div class="border-b-2 w-[90%] mb-2"></div>
+                  <p>$23</p>
+                </div>
+                <P>Mediterranean olives casserole, celeriac puree, mushrooms</P>
+            </div>
+            <div class="w-full space-y-1">
+                <div class="w-full flex flex-wrap justify-between">
+                  <h6 class="w-full font-ging">CORN FED CHICKEN</h6>
+                  <div class="border-b-2 w-[90%] mb-2"></div>
+                  <p>$17</p>
+                </div>
+                <P>Wild mushrooms, truffle potatoes, braised leeks, carrots</P>
+            </div>
+            <div class="w-full space-y-1">
+                <div class="w-full flex flex-wrap justify-between">
+                  <h6 class="w-full font-ging">NDUJA PORK CHICKEN TERRINE</h6>
+                  <div class="border-b-2 w-[90%] mb-2"></div>
+                  <p>$41</p>
+                </div>
+                <P>Smoked duck breast, pistachio, smoked pancetta</P>
+            </div>
+        </div>
+      </div>
+      <div class="flex items-center justify-center pt-10 space-x-3">
+        <button class="bg-orange-600 text-white text-sm md:text-base px-5 md:px-7 py-2 md:py-4 uppercase hover:translate-x-2 font-medium duration-700 ease-in-out">Browse Menus</button>
+        <button class="bg-orange-600 text-white text-sm md:text-base px-5 md:px-7 py-2 md:py-4 uppercase hover:translate-x-2 font-medium duration-700 ease-in-out">order online</button>
+      </div>
+    </div>
+</section>
+<!-- menu -->
+<!-- blog -->
+<section id="blog">
+  <div class="w-full py-12 lg:py-16 xl:py-24 2xl:py-28">
+    <div class="flex flex-wrap">
+        <div class="w-full md:w-1/2 xl:w-5/12">
+          <img alt="gallery" class="block object-cover object-center w-full h-full" src="../public/img/r-1.jpg"/>
+        </div>
+        <div class="w-full md:w-1/2 xl:w-5/12 flex flex-wrap">
+          <div class="w-full md:w-1/2">
+            <img alt="gallery" class="block object-cover object-center w-full h-full" src="../public/img/r-19.jpg"/>
+          </div>
+          <div class="w-full md:w-1/2 bg-black flex flex-col justify-center items-center text-center p-10 uppercase space-y-3">
+            <p class="text-lg text-orange-600 font-medium">recipes</p>
+            <h3 class="text-4xl font-Oswald text-white">our chef's secrets</h3>
+            <a href="#" class="text-white text-base font-medium border-b border-orange-600">learn more</a>
+          </div>
+          <div class="w-full md:w-1/2 bg-black flex flex-col justify-center items-center text-center p-10 uppercase space-y-3">
+            <p class="text-lg text-orange-600 font-medium">recipes</p>
+            <h3 class="text-4xl font-Oswald text-white">our chef's secrets</h3>
+            <a href="#" class="text-white text-base font-medium border-b border-orange-600">learn more</a>
+          </div>
+          <div class="w-full md:w-1/2">
+            <img alt="gallery" class="block object-cover object-center w-full h-full" src="../public/img/r-20.jpg"/>
+          </div>
+        </div>
+        <div class="hidden xl:block xl:w-2/12">
+          <img alt="gallery" class="block object-cover object-center w-full h-full" src="../public/img/r-21.jpg"/>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- blog -->
+<!-- shop -->
+<section id="pages">
+  <div class="max-w-screen-2xl mx-auto px-5 lg:px-9 py-12 lg:py-16 xl:py-24 2xl:py-28">
+    <div class="flex flex-wrap items-center">
+      <div class="w-full lg:w-1/2 xl:w-7/12 py-3 px-0 lg:p-5 flex items-center">
+        <img src="./img/r-22.png" alt="r-22"/>
+      </div>
+      <div class="w-full lg:w-1/2 xl:w-5/12 py-3 px-0 lg:p-5 space-y-3">
+          <p class="text-lg text-orange-600 font-bold">QUALITY & BALANCE</p>
+          <h2 class="text-3xl md:text-6xl font-Oswald font-bold text-black">OUR FOOD PHILOSOPHY</h2>
+          <p class="text-lg font-medium">Simple and balanced. Alexander Petillo brings together flavors and specialties from Italy and beyond to create his own culinary world, full of surprising artistry.</p>
+          <button class="bg-orange-600 text-white text-sm md:text-base font-medium px-5 md:px-7 py-2 md:py-4 uppercase hover:translate-x-2 duration-700 ease-in-out">lern More</button>
+      </div>
+    </div>
+    <div class="flex flex-col-reverse lg:flex-row flex-wrap items-center">
+      <div class="w-full lg:w-1/2 xl:w-5/12 py-3 px-0 lg:p-5 space-y-3">
+          <p class="text-lg text-orange-600 font-bold">RIGHT HERE WAITING</p>
+          <h2 class="text-3xl md:text-6xl font-Oswald font-bold text-black">VISIT OUR RESTAURANT</h2>
+          <p class="text-lg font-medium">We see our customers as invited guests to a party, and we are the hosts. della signpor, 395010 . surat . india<br>
+            M: oking@gmial.com <br>
+            T: +63 055 1234567</p>
+          <button class="bg-orange-600 text-white text-sm md:text-base font-medium px-5 md:px-7 py-2 md:py-4 uppercase hover:translate-x-2 duration-700 ease-in-out">get directions</button>
+      </div>
+      <div class="w-full lg:w-1/2 xl:w-7/12 py-3 px-0 lg:p-5">
+        <img src="./img/r-23.png" alt="r-23"/>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- shop -->
+<div id="shop" class="bg-[#09080e]">
+  <div class="max-w-screen-2xl mx-auto px-5 lg:px-9 py-12 lg:py-16 text-center">
+      <p class="text-xs md:text-lg text-orange-700 font-bold">ONLINE RESERVATION</p>
+      <h2 class="font-Oswald font-bold text-4xl md:text-6xl lg:text-7xl text-white">BOOK A TABLE</h2>
+      <div class="lg:py-5">
+        <form class="flex flex-wrap justify-center lg:justify-between items-center">
+            <div class="w-full lg:w-1/4 lg:p-5">
+              <select class="w-full p-5 text-sm bg-transparent text-white border-b focus:outline-none focus:shadow-outline">
+                  <option class="bg-black">1 person</option>
+                  <option class="bg-black">2 person</option>
+                  <option class="bg-black">3 person</option>
+                  <option class="bg-black">4 person</option>
+                  <option class="bg-black">5 person</option>
+              </select>
+            </div>
+            <div class="w-full lg:w-1/4 text-sm border-b">
+              <input type="date" value="2022-04-22" class="w-full p-5 border-none bg-transparent text-white focus:outline-none focus:shadow-outline"/>
+            </div>
+            <div class="w-full lg:w-1/4 lg:p-5">
+              <select class="w-full p-5 text-sm bg-transparent text-white border-b focus:outline-none focus:shadow-outline">
+                  <option class="bg-black">9:00 am</option>
+                  <option class="bg-black">10:00 am</option>
+                  <option class="bg-black">11:00 am</option>
+                  <option class="bg-black">12:00 am</option>
+              </select>
+            </div>
+            <button class="w-full lg:w-1/4 bg-orange-600 text-white text-sm md:text-base px-5 md:px-7 py-2 md:py-4 uppercase hover:translate-x-2 duration-700 ease-in-out mt-5 lg:mt-0">
+                <span class="font-medium text-xl">Book now</span>
+            </button>
+        </form>
+      </div>
+  </div>
+</div>
+<!-- footer -->
+<footer>
+  <div class="w-full bg-[#09080e] text-white">
+    <div class="max-w-screen-2xl mx-auto flex flex-wrap items-start lg:justify-between px-5 lg:px-10 text-left text-black-500">
+      <div class="w-full md:w-1/2 xl:w-1/4 space-y-3 md:px-5 py-5">
+        <a href="#" class="text-orange-600 font-bold text-2xl md:text-3xl">R-FOOD</a>
+        <p class="text-base lg:text-xl">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+        <ul class="flex items-center justify-start space-x-2">
+          <li class="hover:scale-110"><a href="#"><svg class="fill-orange-600" width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" focusable="false"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"></path></svg></a></li>
+          <li class="hover:scale-110"><a href="#"><svg class="fill-orange-600" width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" focusable="false"><path d="M22.23,5.924c-0.736,0.326-1.527,0.547-2.357,0.646c0.847-0.508,1.498-1.312,1.804-2.27 c-0.793,0.47-1.671,0.812-2.606,0.996C18.324,4.498,17.257,4,16.077,4c-2.266,0-4.103,1.837-4.103,4.103 c0,0.322,0.036,0.635,0.106,0.935C8.67,8.867,5.647,7.234,3.623,4.751C3.27,5.357,3.067,6.062,3.067,6.814 c0,1.424,0.724,2.679,1.825,3.415c-0.673-0.021-1.305-0.206-1.859-0.513c0,0.017,0,0.034,0,0.052c0,1.988,1.414,3.647,3.292,4.023 c-0.344,0.094-0.707,0.144-1.081,0.144c-0.264,0-0.521-0.026-0.772-0.074c0.522,1.63,2.038,2.816,3.833,2.85 c-1.404,1.1-3.174,1.756-5.096,1.756c-0.331,0-0.658-0.019-0.979-0.057c1.816,1.164,3.973,1.843,6.29,1.843 c7.547,0,11.675-6.252,11.675-11.675c0-0.178-0.004-0.355-0.012-0.531C20.985,7.47,21.68,6.747,22.23,5.924z"></path></svg></a></li>
+          <li class="hover:scale-110"><a href="#"><svg class="fill-orange-600" width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" focusable="false"><path d="M12,4.622c2.403,0,2.688,0.009,3.637,0.052c0.877,0.04,1.354,0.187,1.671,0.31c0.42,0.163,0.72,0.358,1.035,0.673 c0.315,0.315,0.51,0.615,0.673,1.035c0.123,0.317,0.27,0.794,0.31,1.671c0.043,0.949,0.052,1.234,0.052,3.637 s-0.009,2.688-0.052,3.637c-0.04,0.877-0.187,1.354-0.31,1.671c-0.163,0.42-0.358,0.72-0.673,1.035 c-0.315,0.315-0.615,0.51-1.035,0.673c-0.317,0.123-0.794,0.27-1.671,0.31c-0.949,0.043-1.233,0.052-3.637,0.052 s-2.688-0.009-3.637-0.052c-0.877-0.04-1.354-0.187-1.671-0.31c-0.42-0.163-0.72-0.358-1.035-0.673 c-0.315-0.315-0.51-0.615-0.673-1.035c-0.123-0.317-0.27-0.794-0.31-1.671C4.631,14.688,4.622,14.403,4.622,12 s0.009-2.688,0.052-3.637c0.04-0.877,0.187-1.354,0.31-1.671c0.163-0.42,0.358-0.72,0.673-1.035 c0.315-0.315,0.615-0.51,1.035-0.673c0.317-0.123,0.794-0.27,1.671-0.31C9.312,4.631,9.597,4.622,12,4.622 M12,3 C9.556,3,9.249,3.01,8.289,3.054C7.331,3.098,6.677,3.25,6.105,3.472C5.513,3.702,5.011,4.01,4.511,4.511 c-0.5,0.5-0.808,1.002-1.038,1.594C3.25,6.677,3.098,7.331,3.054,8.289C3.01,9.249,3,9.556,3,12c0,2.444,0.01,2.751,0.054,3.711 c0.044,0.958,0.196,1.612,0.418,2.185c0.23,0.592,0.538,1.094,1.038,1.594c0.5,0.5,1.002,0.808,1.594,1.038 c0.572,0.222,1.227,0.375,2.185,0.418C9.249,20.99,9.556,21,12,21s2.751-0.01,3.711-0.054c0.958-0.044,1.612-0.196,2.185-0.418 c0.592-0.23,1.094-0.538,1.594-1.038c0.5-0.5,0.808-1.002,1.038-1.594c0.222-0.572,0.375-1.227,0.418-2.185 C20.99,14.751,21,14.444,21,12s-0.01-2.751-0.054-3.711c-0.044-0.958-0.196-1.612-0.418-2.185c-0.23-0.592-0.538-1.094-1.038-1.594 c-0.5-0.5-1.002-0.808-1.594-1.038c-0.572-0.222-1.227-0.375-2.185-0.418C14.751,3.01,14.444,3,12,3L12,3z M12,7.378 c-2.552,0-4.622,2.069-4.622,4.622S9.448,16.622,12,16.622s4.622-2.069,4.622-4.622S14.552,7.378,12,7.378z M12,15 c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S13.657,15,12,15z M16.804,6.116c-0.596,0-1.08,0.484-1.08,1.08 s0.484,1.08,1.08,1.08c0.596,0,1.08-0.484,1.08-1.08S17.401,6.116,16.804,6.116z"></path></svg></a></li>
+          <li class="hover:scale-110"><a href="#"><svg class="fill-orange-600" width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" focusable="false"><path d="M12.289,2C6.617,2,3.606,5.648,3.606,9.622c0,1.846,1.025,4.146,2.666,4.878c0.25,0.111,0.381,0.063,0.439-0.169 c0.044-0.175,0.267-1.029,0.365-1.428c0.032-0.128,0.017-0.237-0.091-0.362C6.445,11.911,6.01,10.75,6.01,9.668 c0-2.777,2.194-5.464,5.933-5.464c3.23,0,5.49,2.108,5.49,5.122c0,3.407-1.794,5.768-4.13,5.768c-1.291,0-2.257-1.021-1.948-2.277 c0.372-1.495,1.089-3.112,1.089-4.191c0-0.967-0.542-1.775-1.663-1.775c-1.319,0-2.379,1.309-2.379,3.059 c0,1.115,0.394,1.869,0.394,1.869s-1.302,5.279-1.54,6.261c-0.405,1.666,0.053,4.368,0.094,4.604 c0.021,0.126,0.167,0.169,0.25,0.063c0.129-0.165,1.699-2.419,2.142-4.051c0.158-0.59,0.817-2.995,0.817-2.995 c0.43,0.784,1.681,1.446,3.013,1.446c3.963,0,6.822-3.494,6.822-7.833C20.394,5.112,16.849,2,12.289,2"></path></svg></a></li>
+        </ul>
+      </div>
+      <div class="w-full md:w-1/2 xl:w-1/4 space-y-3 md:px-5 py-5">
+        <span class="txet-lg lg:text-xl font-bold">WORKING HOURS</span>
+        <div class="flex items-center justify-between">
+          <ul class="text-base lg:text-lg">
+            <li><a href="#">Monday - Friday</a></li>
+            <li><a href="#">Saturday</a></li>
+            <li><a href="#">Sunday</a></li>
+            <li><a href="#">.</a></li>
+            <li><a href="#">.</a></li>
+            <li><a href="#">* Happy hour</a></li>
+          </ul>
+          <ul class="text-base lg:text-lg">
+            <li><a href="#">09:00 - 22:00</a></li>
+            <li><a href="#">11:00 - 00:00</a></li>
+            <li><a href="#">11:00 - 23:00</a></li>
+            <li><a href="#">.</a></li>
+            <li><a href="#">.</a></li>
+            <li><a href="#">17:00 - 21:00</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="w-full md:w-1/2 xl:w-1/4 space-y-3 md:px-5 py-5">
+        <span class="txet-lg lg:text-xl font-bold">OUR ADDRESS</span>
+        <ul class="text-base lg:text-lg">
+          <li><a href="#">Silk St, Barbican, London EC2Y 8DS, UK</a></li>
+          <li><a href="#">+63 055 1234567</a></li>
+          <li><a href="#">oking@gmial.com</a></li>
+        </ul>
+      </div>
+      <div class="w-full md:w-1/2 xl:w-1/4 space-y-3 md:px-5 py-5">
+        <p class="font-bold txet-lg lg:text-xl">NEWSLETTER</p>
+        <p class="text-base lg:text-lg">Receive the latest news from us.</p>
+        <input type="text" placeholder="Your Email Address" class="w-full bg-transparent border-b outline-0"/>
+        <p class="text-base lg:text-lg"><input type="checkbox" class="mr-5"/>I agree to the Privacy Policy</p>
+      </div>
+    </div>
+    <div class="max-w-screen-2xl mx-auto lg:flex text-center lg:justify-between items-center border-t py-5 px-5 lg:px-10">
+      <p class="text-base lg:text-lg">© Copyright PatioTime Tailwind Theme for Restaurant & Cafe.</p>
+      <ul class="flex justify-center items-center">
+        <li class="px-2"><a href="#">PRIVACY</a></li>
+        <li class="px-2"><a href="#">TERM OF USE</a></li>
+        <li class="px-2"><a href="#">POLICY</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<!-- footer -->
+
+
+  <script>
+      //menu scroll
+      window.onscroll = function() {scrollFunction()};
+            function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementsByTagName("header")[0].style.backgroundColor = "#ffffff";
+                document.getElementsByTagName("header")[0].style.boxShadow = "0px 10px 30px rgba(0,0,0,0.1)";
+            } else {
+                document.getElementsByTagName("header")[0].style.backgroundColor = "transparent";
+                document.getElementsByTagName("header")[0].style.boxShadow = "0px 10px 30px rgba(0,0,0,0)";
+            }
+        }
+        // navbar
+      const button = document.querySelector('#menu-button');
+      const menu = document.querySelector('#menu');
+
+      button.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+      });
+  </script>
+</body>
+</html>
